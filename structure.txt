@@ -1,0 +1,40 @@
+🔥 Day 348 — Vehicle Service Management System
+For Day 348, let's build a multi-file Python project for managing vehicle customers, service records, spare parts, bills, and service history.
+📌 Features
+- Add customers
+- Add vehicles
+- View vehicles
+- Search vehicles
+- Add spare parts
+- Create service records
+- Add multiple service items
+- Calculate parts cost
+- Calculate labor cost
+- Calculate GST
+- Generate service bill
+- Update service status
+- View service history
+- Search service records
+- Service statistics
+- JSON data storage
+
+📁 Folder Structure
+vehicle-service-management/
+│
+├── main.py
+├── config.py
+├── storage.py
+├── utils.py
+├── customer_manager.py
+├── vehicle_manager.py
+├── parts_manager.py
+├── service_manager.py
+├── report_manager.py
+│
+├── data/
+│   ├── customers.json
+│   ├── vehicles.json
+│   ├── parts.json
+│   └── services.json
+│
+└── README.md
